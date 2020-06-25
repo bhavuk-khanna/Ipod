@@ -99,7 +99,7 @@ code {
 .list-item{
   height: 20%;
   width: 100%;
-  /* background-color: red; */
+  background-color: red;
   border: 1px solid black;
   line-height: 300%;
   
