@@ -17,7 +17,7 @@ ReactDOM.render(
 var ZingTouch = require('zingtouch');
 var touchArea = document.getElementsByClassName('circular-menu')[0];
 var myRegion = new ZingTouch.Region(touchArea);
- 
+console.log()
 myRegion.bind(touchArea, 'rotate', function(e){
     console.log(e.detail);
 });
